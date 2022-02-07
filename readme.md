@@ -5,7 +5,7 @@
 ## Przegląd
 
 Grę można przetestować pod poniższym linkiem:
-
+https://dmncp.github.io/JSGame/
 
 
 
