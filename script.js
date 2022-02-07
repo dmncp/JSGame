@@ -2,12 +2,8 @@ import {playerName, noSquares, speed, counter} from "./promptInfo.js"
 import {CanvasComponent, myCanvas} from "./components/canvas/canvas-component.js";
 import {PointsTableComponent, myTable} from "./components/PointsAndTime/pointsTable-component.js";
 import {BestScoresComponent, scoresTable} from "./components/BestScores/bestScores-component.js";
-import {engine, render, engineElements} from "./PhysicsEngine/main.js";
 export {playerName, noSquares, speed, counter}
 
-Matter.World.add(engine.world, engineElements);
-Matter.Engine.run(engine);
-Matter.Render.run(render);
 
 let div = document.getElementById("name");
 

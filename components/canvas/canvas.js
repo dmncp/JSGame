@@ -2,7 +2,6 @@ import {Circle} from "./circle.js";
 import {Square} from "./square.js";
 import {noSquares, speed} from "../../script.js";
 
-
 let Canvas = function (width, height, bgColor){
     this.canvas = document.createElement("canvas");
     this.context = this.canvas.getContext('2d');
@@ -31,6 +30,7 @@ let Canvas = function (width, height, bgColor){
 
     this.pushSquare(this.noSquares);
     this.circle = new Circle(this);
+
 
     this.nextLevel = function (){
         if(this.level < 3){
